@@ -13,7 +13,7 @@ Output is a **temporary URL (~30 days)** — the CLI downloads the file by defau
 
 ## Quick Start
 
-CLI (stdlib-only; source: `/work/projects/glm-image-skill`, installed as `~/.local/bin/glm-image`; key auto-read from `~/agents.env`):
+CLI (stdlib-only, single file at `scripts/glm-image.py`); install: `ln -s "$PWD/scripts/glm-image.py" ~/.local/bin/glm-image`. API key comes from env or an env file (default `~/agents.env`, any `KEY=value` lines):
 
 ```bash
 glm-image "A cute kitten sitting on a sunny windowsill"                  # -> <slug>.png
